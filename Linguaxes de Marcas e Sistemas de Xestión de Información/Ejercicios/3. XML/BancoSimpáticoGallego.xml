@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banco id_banco="4444" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bsg.xsd">
+
+	<nombre>Banco Simpático Gallego</nombre>
+	<abreviatura>BSG</abreviatura>
+	<presidente>
+		<nombre>Víctor Manuel</nombre>
+		<apellidos>Rodríguez Caamaño</apellidos>
+	</presidente>
+	<fundación dia="---20" mes="--10--" año="1892"></fundación>
+	<sucursal id="1234">
+		<superficie unidad="m2">
+			<area>540</area>
+		</superficie>
+		<empleados>
+			<clave>empleados1234</clave>
+			<empleado id="EA9ab">
+				<NSS>586875283456</NSS>
+				<nombre>Carlos</nombre>
+				<apellidos>González Muiño</apellidos>
+				<cargo>Director</cargo>
+			</empleado>
+			<empleado id="EA9ab">
+				<NSS>119457314331</NSS>
+				<nombre>Ramón</nombre>
+				<apellidos>Castiñeiras Blanco</apellidos>
+				<cargo>Interventor</cargo>
+			</empleado>
+			<empleado id="EA9ab">
+				<NSS>120045673321</NSS>
+				<nombre>Cristina</nombre>
+				<apellidos>Fernández Pensado</apellidos>
+				<cargo>Otros</cargo>
+			</empleado>
+		</empleados>
+	</sucursal>
+	<sucursal id="5678">
+		<superficie unidad="m2">
+			<area>620</area>
+		</superficie>
+		<empleados>
+			<clave>empleados5678</clave>
+		<empleado id="EA9ab">
+			<NSS>983728173652</NSS>
+			<nombre>Tamara</nombre>
+			<apellidos>Blanco Álvarez</apellidos>
+			<cargo>Director</cargo>
+		</empleado>
+		<empleado id="EA9ab">
+			<NSS>029375469182</NSS>
+			<nombre>Cristian</nombre>
+			<apellidos>Pazos Abelenda</apellidos>
+			<cargo>Interventor</cargo>
+		</empleado>
+		<empleado id="EA9ab">
+			<NSS>334460098001</NSS>
+			<nombre>Maria</nombre>
+			<apellidos>Mouro Antelo</apellidos>
+			<cargo>Otros</cargo>
+		</empleado>
+		</empleados>
+	</sucursal>
+</banco>

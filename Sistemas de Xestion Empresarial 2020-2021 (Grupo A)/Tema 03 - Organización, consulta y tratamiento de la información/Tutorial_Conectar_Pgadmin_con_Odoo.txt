@@ -1,0 +1,1 @@
+https://www.cier.tech/blog/odoo-tutorials-1/post/how-to-connect-to-odoo-db-using-pgadmin-26

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="banco">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="abreviatura" type="xs:string"/>
+                <xs:element name="presidente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellidos" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="fundación">
+                    <xs:complexType>
+                        <xs:attribute name="dia" type="xs:gDay"/>
+                        <xs:attribute name="mes" type="xs:gMonth"/>
+                        <xs:attribute name="año" type="xs:gYear"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sucursal" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="superficie">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="area" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="unidad" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="empleados">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="clave" type="xs:string"/>
+                                        <xs:element name="empleado" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="NSS">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:length value="12"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="nombre" type="xs:string" maxOccurs="1"/>
+                                                    <xs:element name="apellidos" type="xs:string" maxOccurs="1"/>
+                                                    <xs:element name="cargo" nillable="true">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="Director"/>
+                                                                <xs:enumeration value="Interventor"/>
+                                                                <xs:enumeration value="Otros"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" use="required">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:maxLength value="6"/>
+                                                            <xs:pattern value="E[AEIOU]([3-6]{2}||[9])([a-z]{2,3})"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id_banco" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>    
+</xs:schema>

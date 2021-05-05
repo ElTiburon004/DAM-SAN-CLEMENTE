@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Banco">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="abreviatura" type="xs:string"/>
+				<xs:element name="nombre_completo" type="xs:string"/>
+				<xs:element name="fecha_creacion" type="xs:date"/>
+				<xs:element name="presidente" type="xs:string"/>
+				<xs:element name="sucursales">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="sucursal" minOccurs="2" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="superficie">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:integer">
+														<xs:attribute name="unidad" type="xs:string" fixed="m2"/>
+													</xs:extension>
+												</xs:simpleContent>	
+											</xs:complexType>
+										</xs:element>	
+										<xs:element name="personal">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="empleado" minOccurs="3" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="nombreyapellidos" type="xs:string"/>  <!--minOccurs es 1 por defecto asi pues es obligatorio -->
+																<xs:element name="nss" type="digitos_nss"/>    
+																<xs:element name="cargo" type="opciones_cargo"/>  
+															</xs:sequence>
+															<xs:attribute name="cod" type="cod_empleado" use="required"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="cod" type="cod_sucursal" use="required"/>  
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="codigo" type="xs:integer" fixed="4444"/>
+		</xs:complexType>
+	</xs:element>
+
+				<!--RESTRICCIONES EMPIEZAN AQUÍ -->
+	
+	<xs:simpleType name="cod_sucursal"> 		<!--el código de cada sucursal tienen que ser 4 dígitos -->
+		<xs:restriction base="xs:string">
+			<xs:length value="4"/>
+		</xs:restriction>
+	</xs:simpleType> 
+
+	<xs:simpleType name="digitos_nss">          <!--el nss de cada empleado tiene que tener 12 dígitos -->
+		<xs:restriction base="xs:string">
+			<xs:length value="12"/>
+		</xs:restriction>
+	</xs:simpleType> 
+
+	<xs:simpleType name="opciones_cargo">    <!--el cargo de que cada empleado puede ser Director, inverventor u Otros -->
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Director"/>
+			<xs:enumeration value="Interventor"/>
+			<xs:enumeration value="Otros"/>
+		</xs:restriction>
+	</xs:simpleType> 
+
+
+
+	          <!--código de cada empleado, max 6 caracteres, comenzará por E seguida de una vocal en mayúscula, a continuación dos opciones (dos números del 3 al 6) o (el numero 9), termina con dos o tres letras minúsculas -->
+	  <xs:simpleType name="cod_empleado">      
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[E][AEIOU][3456]{2}[a-z]{2}"/>
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[E][AEIOU][9][a-z]{3}"/>
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[E][AEIOU][9][a-z]{2}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+
+</xs:schema>	

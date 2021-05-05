@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Banco xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="banco.xsd"
+  codigo="4444">
+  <abreviatura>BSG</abreviatura>
+  <nombre_completo>Banco Simpático Galego</nombre_completo>
+  <fecha_creacion>1986-09-11</fecha_creacion>
+  <presidente>Ramón de Pitis Muñoz</presidente>
+  <sucursales>
+    <sucursal cod="1234">
+      <superficie unidad="m2">200</superficie>
+      <personal>
+        <empleado cod="EA33dd">
+          <nombreyapellidos>Ramiro Cillero López</nombreyapellidos>
+          <nss>123458735467</nss>
+          <cargo>Director</cargo>
+        </empleado>
+        <empleado cod="EA9hjk">
+          <nombreyapellidos>Mario López Bouzas</nombreyapellidos>
+          <nss>009223221875</nss>
+          <cargo>Interventor</cargo>
+        </empleado>
+        <empleado cod="EO44aa">
+          <nombreyapellidos>Pedro Eureka Romerales</nombreyapellidos>
+          <nss>334622348888</nss>
+          <cargo>Otros</cargo>
+        </empleado>
+        <empleado cod="EE9wyt">
+          <nombreyapellidos>Toño Lamiño Prado</nombreyapellidos>
+          <nss>122233344444</nss>
+          <cargo>Otros</cargo>
+        </empleado>
+      </personal>
+    </sucursal>
+    <sucursal cod="6785">
+      <superficie unidad="m2">120</superficie>
+      <personal>
+        <empleado cod="EI44aa">
+          <nombreyapellidos>David Quinteiro Ferro</nombreyapellidos>
+          <nss>887766777877</nss>
+          <cargo>Director</cargo>
+        </empleado>
+        <empleado cod="EE9zzz">
+          <nombreyapellidos>Luis Bueno Ferrín</nombreyapellidos>
+          <nss>222323232311</nss>
+          <cargo>Interventor</cargo>
+        </empleado>
+        <empleado cod="EU9vbg">
+          <nombreyapellidos>Peter López Bustamante</nombreyapellidos>
+          <nss>098336478901</nss>
+          <cargo>Otros</cargo>
+        </empleado>
+        <empleado cod="EA9aqw">
+          <nombreyapellidos>Raúl González Blanco</nombreyapellidos>
+          <nss>123444433300</nss>
+          <cargo>Otros</cargo>
+        </empleado>
+      </personal>
+    </sucursal>
+  </sucursales>
+</Banco>

@@ -1,0 +1,40 @@
+package SincroBasicos;
+public class MainEj3NoSincro {
+	public static void main(String args[]) {
+		Listado lista = new Listado();
+		//Creo los objeto hilo
+		Thread primero = new Ej2NoSincro();
+		Thread segundo = new Ej2NoSincro();
+		
+		//Los lanzo
+		primero.start();
+		segundo.start();
+
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException ex) {
+			System.out.printf("Interrupcion");
+		}
+		System.out.println("\nYa termine.");
+		}
+	}
+package SincroBasicos;
+public class Ej3NoSincro extends Thread {
+	Listado salida;
+
+	//constructor
+	Ej2NoSincro(Listado sali) {
+		salida=sali;
+	public void run() {
+		salida.Mostrar();
+	}
+}
+package SincroBasicos;
+public class Listado {
+	public void Mostrar() {
+		System.out.println("\nEsta es mi salida ");
+		for (int i=0; i<8; i++) {
+			System.out.print(i+" ");
+		}
+	}
+}
