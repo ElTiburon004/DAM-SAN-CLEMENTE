@@ -1,0 +1,14 @@
+--> PL/SQL. Práctica de cursores y excepciones
+http://informaticafacil73.blogspot.com/2014/08/plsql-practica-de-cursores-y-excepciones.html
+
+-->CURSORES
+https://elbauldelprogramador.com/plsql-cursores/
+
+--> EJERCICIOS RESUELTOS DE PL-SQL
+https://dam.org.es/wp-content/uploads/2020/03/EJERCICIOS_RESUELTOS_DE_PL-SQL.pdf
+
+--> Manual de Iniciación a Oracle (TEMA 11 y SIGUIENTES)
+https://www.mundoracle.com/pl-sql.html?Pg=sql_plsql_11.htm
+
+
+
