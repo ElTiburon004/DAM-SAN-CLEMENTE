@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9BF4C69C-11DF-A9A4-A35A-DB73EE7805FC" containerWithKeyObject="1EB39326-05FE-D7B2-C172-49E043F24700" localFKIndex="121EC62B-883A-11F3-FF50-22205E027C95" name="FK_CODPRODUCTO">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>FK_CODPRODUCTO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:24 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<referredTableLongName>C##JESUS.PRODUCTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75882D61-6884-FE43-3D73-1FC09D4C9FDE</referredTableID>
+<keyObject>5D1BC781-A97D-CDDF-7459-1CEAA784120B</keyObject>
+<referredKeyID>5D1BC781-A97D-CDDF-7459-1CEAA784120B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODPRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

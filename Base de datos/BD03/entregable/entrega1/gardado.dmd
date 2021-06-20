@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gardado" id="22434B2C-EC9F-54AE-E6E5-9864D5E43552" version="3.5">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:29:29 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>22434B2C-EC9F-54AE-E6E5-9864D5E43552</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="22434B2C-EC9F-54AE-E6E5-9864D5E43552">
+<designStoragePath>C:\Users\bejos\OneDrive\Curso 2020_21 DAM\484 Base de datos\BD03\entregable\entrega1\exportacion data model1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

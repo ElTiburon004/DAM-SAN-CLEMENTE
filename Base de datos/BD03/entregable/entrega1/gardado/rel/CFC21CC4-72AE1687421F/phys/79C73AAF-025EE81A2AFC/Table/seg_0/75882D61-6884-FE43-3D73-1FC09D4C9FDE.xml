@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRODUCTO" directorySegmentName="seg_0" id="75882D61-6884-FE43-3D73-1FC09D4C9FDE">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:22 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<schemaObject>4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7E0D1651-78DF-97BA-9C46-33B97C7A4D99</segment>
+<tableSpace>48E0C353-5CBE-0765-9C25-E3F856A695AE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPCION" id="1FFAB677-65A3-BD22-31E7-62BC44DFB865">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODFAMILIA" id="21CE9AA6-866A-D9B9-C6B2-C4E66D6FCA8B">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PORCREPOSICION" id="46F94361-AE97-CA1E-F07F-6C2286DFFD2E">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIDADESMINIMAS" id="8E1C72EC-BD10-F9E7-983D-EEE6CD5C86C5">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERECEDERO" id="A27ADEB5-68F1-6B5D-3766-0141EC1961F7">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIOBASE" id="BED0A912-1BB4-ECA5-E4AB-E0D5C7BB1363">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DENOPRODUCTO" id="D31043D7-7D26-77CD-A3B0-02745E93C958">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODPRODUCTO" id="FBF877BE-D621-C444-5EA4-F5733906FB25">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCTO_PK" id="5FD198A1-C85D-523C-7BB2-81B175757AF2">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<schemaObject>4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8</schemaObject>
+<segment>AE67B57B-9976-C6B1-D446-016191ADE52D</segment>
+<tableSpace>48E0C353-5CBE-0765-9C25-E3F856A695AE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCTO_PK" id="5D1BC781-A97D-CDDF-7459-1CEAA784120B">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<segment>AE67B57B-9976-C6B1-D446-016191ADE52D</segment>
+<tableSpace>48E0C353-5CBE-0765-9C25-E3F856A695AE</tableSpace>
+<existingIndex>5FD198A1-C85D-523C-7BB2-81B175757AF2</existingIndex>
+<indexSegment>AE67B57B-9976-C6B1-D446-016191ADE52D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

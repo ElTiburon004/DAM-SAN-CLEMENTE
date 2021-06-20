@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75882D61-6884-FE43-3D73-1FC09D4C9FDE" schemaObject="4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8" name="PRODUCTO">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>PRODUCTO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:22 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODPRODUCTO" id="FBF877BE-D621-C444-5EA4-F5733906FB25">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>CODPRODUCTO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DENOPRODUCTO" id="D31043D7-7D26-77CD-A3B0-02745E93C958">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>DENOPRODUCTO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="1FFAB677-65A3-BD22-31E7-62BC44DFB865">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIOBASE" id="BED0A912-1BB4-ECA5-E4AB-E0D5C7BB1363">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>PRECIOBASE</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<constraintName>PRECIOBASE_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="PRECIOBASE &gt;0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="PRECIOBASE &gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORCREPOSICION" id="46F94361-AE97-CA1E-F07F-6C2286DFFD2E">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>PORCREPOSICION</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<constraintName>PORCREPOSICION_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="PORCREPOSICION &gt;0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="PORCREPOSICION &gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADESMINIMAS" id="8E1C72EC-BD10-F9E7-983D-EEE6CD5C86C5">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>UNIDADESMINIMAS</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<constraintName>UNIDADESMINIMAS_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="UNIDADESMINIMAS &gt;0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="UNIDADESMINIMAS &gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODFAMILIA" id="21CE9AA6-866A-D9B9-C6B2-C4E66D6FCA8B">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>CODFAMILIA</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERECEDERO" id="A27ADEB5-68F1-6B5D-3766-0141EC1961F7">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODUCTO</sourceObjSchema>
+<sourceObjName>PERECEDERO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<constraintName>PRO_PER_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="PERECEDERO =&apos;SI&apos; OR PERECEDERO =&apos;NO&apos;"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="PERECEDERO =&apos;SI&apos; OR PERECEDERO =&apos;NO&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D1BC781-A97D-CDDF-7459-1CEAA784120B" name="PRODUCTO_PK">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>PRODUCTO_PK</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBF877BE-D621-C444-5EA4-F5733906FB25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FD198A1-C85D-523C-7BB2-81B175757AF2" schemaObject="4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8" name="PRODUCTO_PK">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>PRODUCTO_PK</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBF877BE-D621-C444-5EA4-F5733906FB25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

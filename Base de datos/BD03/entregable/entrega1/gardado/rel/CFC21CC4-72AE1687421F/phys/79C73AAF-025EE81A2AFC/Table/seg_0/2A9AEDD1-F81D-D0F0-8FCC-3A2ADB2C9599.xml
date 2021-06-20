@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIENDA" directorySegmentName="seg_0" id="2A9AEDD1-F81D-D0F0-8FCC-3A2ADB2C9599">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:22 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<schemaObject>4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7E0D1651-78DF-97BA-9C46-33B97C7A4D99</segment>
+<tableSpace>48E0C353-5CBE-0765-9C25-E3F856A695AE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TELEFONO" id="2852F80D-B4C6-3FBE-94C9-7B701C74A4FA">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DENOTIENDA" id="3F0E862F-27F9-A2AC-7C08-9403B3692976">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROVINCIA" id="71C1DA9D-89EB-BBEC-A5C8-224AB23E97F9">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODTIENDA" id="ACE118F6-CEE6-6370-2B8F-6A1DB93C3908">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOPOSTAL" id="C731AD4B-54BA-722D-5F86-E7F4E3BBA0F2">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TIENDA_PK" id="CC299395-56FC-6E84-4BFA-3DA7139D3AB2">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<schemaObject>4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8</schemaObject>
+<segment>AE67B57B-9976-C6B1-D446-016191ADE52D</segment>
+<tableSpace>48E0C353-5CBE-0765-9C25-E3F856A695AE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIENDA_PK" id="EEFB7B7D-A576-AEA2-C473-BE52AEFC7933">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<segment>AE67B57B-9976-C6B1-D446-016191ADE52D</segment>
+<tableSpace>48E0C353-5CBE-0765-9C25-E3F856A695AE</tableSpace>
+<existingIndex>CC299395-56FC-6E84-4BFA-3DA7139D3AB2</existingIndex>
+<indexSegment>AE67B57B-9976-C6B1-D446-016191ADE52D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

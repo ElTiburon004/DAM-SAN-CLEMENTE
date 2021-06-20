@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="48E0C353-5CBE-0765-9C25-E3F856A695AE">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:22 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

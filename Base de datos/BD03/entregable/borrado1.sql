@@ -1,0 +1,1 @@
+SELECT 'DROP TABLE' FROM SYS.user_tablespaces

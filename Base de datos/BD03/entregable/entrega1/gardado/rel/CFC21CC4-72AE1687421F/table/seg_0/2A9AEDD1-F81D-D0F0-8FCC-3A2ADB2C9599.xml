@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A9AEDD1-F81D-D0F0-8FCC-3A2ADB2C9599" schemaObject="4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8" name="TIENDA">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>TIENDA</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:22 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODTIENDA" id="ACE118F6-CEE6-6370-2B8F-6A1DB93C3908">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>TIENDA</sourceObjSchema>
+<sourceObjName>CODTIENDA</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DENOTIENDA" id="3F0E862F-27F9-A2AC-7C08-9403B3692976">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>TIENDA</sourceObjSchema>
+<sourceObjName>DENOTIENDA</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="2852F80D-B4C6-3FBE-94C9-7B701C74A4FA">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>TIENDA</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOPOSTAL" id="C731AD4B-54BA-722D-5F86-E7F4E3BBA0F2">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>TIENDA</sourceObjSchema>
+<sourceObjName>CODIGOPOSTAL</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA" id="71C1DA9D-89EB-BBEC-A5C8-224AB23E97F9">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>TIENDA</sourceObjSchema>
+<sourceObjName>PROVINCIA</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEFB7B7D-A576-AEA2-C473-BE52AEFC7933" name="TIENDA_PK">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>TIENDA_PK</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACE118F6-CEE6-6370-2B8F-6A1DB93C3908"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC299395-56FC-6E84-4BFA-3DA7139D3AB2" schemaObject="4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8" name="TIENDA_PK">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>TIENDA_PK</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACE118F6-CEE6-6370-2B8F-6A1DB93C3908"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

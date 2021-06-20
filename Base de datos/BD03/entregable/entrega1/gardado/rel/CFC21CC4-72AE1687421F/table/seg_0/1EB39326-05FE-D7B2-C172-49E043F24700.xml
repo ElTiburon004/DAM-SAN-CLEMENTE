@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EB39326-05FE-D7B2-C172-49E043F24700" schemaObject="4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8" name="PRODXTIENDAS">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>PRODXTIENDAS</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:22 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODTIENDA" id="7E370ADB-2840-2243-5B6F-E8F8F65D2DDC">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODXTIENDAS</sourceObjSchema>
+<sourceObjName>CODTIENDA</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC2D274C-7023-D422-506D-7B4B7EB2844A" referredColumn="ACE118F6-CEE6-6370-2B8F-6A1DB93C3908"/>
+</associations>
+</Column>
+<Column name="CODPRODUCTO" id="6F506A6B-F7E0-5EE8-8602-BA2528B5E4C1">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODXTIENDAS</sourceObjSchema>
+<sourceObjName>CODPRODUCTO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BF4C69C-11DF-A9A4-A35A-DB73EE7805FC" referredColumn="FBF877BE-D621-C444-5EA4-F5733906FB25"/>
+</associations>
+</Column>
+<Column name="UNIDADES" id="F6679936-6F4A-6FF4-2EA8-DC064E562BC1">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODXTIENDAS</sourceObjSchema>
+<sourceObjName>UNIDADES</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<constraintName>CK_UNIDADES</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="UNIDADES &gt;0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="UNIDADES &gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAULTIMAENTRADA" id="F2E34DD2-3777-955F-BDBC-1D43FE87744C">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODXTIENDAS</sourceObjSchema>
+<sourceObjName>FECHAULTIMAENTRADA</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BENEFICIO" id="40E22C49-5D4D-A2DB-0AA0-076F0A519A20">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>PRODXTIENDAS</sourceObjSchema>
+<sourceObjName>BENEFICIO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<constraintName>SYS_C007466</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2324C55-4820-D7EF-7408-37A4E6E17245" name="STOCK_PK">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>STOCK_PK</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E370ADB-2840-2243-5B6F-E8F8F65D2DDC"/>
+<colUsage columnID="6F506A6B-F7E0-5EE8-8602-BA2528B5E4C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05235A4D-4050-0D39-7AB3-CB4A39D81BA5" schemaObject="4BE46D21-5D4B-F7A5-8B12-B6CBDA6421B8" name="STOCK_PK">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjSchema>C##JESUS</sourceObjSchema>
+<sourceObjName>STOCK_PK</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:23 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E370ADB-2840-2243-5B6F-E8F8F65D2DDC"/>
+<colUsage columnID="6F506A6B-F7E0-5EE8-8602-BA2528B5E4C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="121EC62B-883A-11F3-FF50-22205E027C95" name="FK_CODPRODUCTO">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:24 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F506A6B-F7E0-5EE8-8602-BA2528B5E4C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFB03F5F-A169-074D-992C-9CF3F2BE2DFE" name="FK_CODTIENDA">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:24 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E370ADB-2840-2243-5B6F-E8F8F65D2DDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

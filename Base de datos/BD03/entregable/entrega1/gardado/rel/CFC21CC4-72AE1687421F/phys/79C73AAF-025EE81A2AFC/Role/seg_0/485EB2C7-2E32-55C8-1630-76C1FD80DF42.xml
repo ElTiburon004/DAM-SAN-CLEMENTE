@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="C##INVITADO" directorySegmentName="seg_0" id="485EB2C7-2E32-55C8-1630-76C1FD80DF42">
+<sourceConnName>con_jesus</sourceConnName>
+<sourceObjName>C##INVITADO</sourceObjName>
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:24 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="631A67B6-A253-4114-7994-EEEA06398F22">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:49:24 UTC</createdTime>
+<ownerDesignName>gardado</ownerDesignName>
+<privileges>INSERT</privileges>
+<table>75882D61-6884-FE43-3D73-1FC09D4C9FDE</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

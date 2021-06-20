@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="exportacion data model1" id="22434B2C-EC9F-54AE-E6E5-9864D5E43552" version="3.5">
+<createdBy>bejos</createdBy>
+<createdTime>2021-02-14 20:29:29 UTC</createdTime>
+<ownerDesignName>exportacion data model1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>22434B2C-EC9F-54AE-E6E5-9864D5E43552</designId>
+</OSDM_Design>
