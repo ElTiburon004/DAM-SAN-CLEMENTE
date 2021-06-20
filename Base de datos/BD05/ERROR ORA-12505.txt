@@ -1,0 +1,9 @@
+Error ORA-12505, al reiniciar la computadora
+
+    Open Net Manager. ...
+    Select your Listener.
+    In the upper right ComboBox, select Database Services.
+    Clic Add Database.
+    Fill the 3 fields: Global Database Name (i.e. ORCL.NET. ...
+    File > Save Network Configuration.
+    Restart the OracleOraDb11g_home1TNSListener service.
