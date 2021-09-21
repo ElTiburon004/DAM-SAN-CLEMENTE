@@ -1,0 +1,11 @@
+
+
+- URL netbeans 8.2:
+
+https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html
+
+- Java ME para Netbeans:
+
+https://www.oracle.com/java/technologies/sdk-downloads.html
+
+
